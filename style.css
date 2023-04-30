@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black; /* Add border to cells */
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add border to table */
+  table {
+    border: 2px solid black;
+  }
+  
+  /* Add border to table header */
+  th {
+    border: 2px solid black;
+  }
+  
+  /* Add border to first column */
+  td:first-child {
+    border-left: 2px solid black;
+  }
+  
+  /* Add border to last column */
+  td:last-child {
+    border-right: 2px solid black;
+  }
+  
+  /* Add border to last row */
+  tr:last-child td {
+    border-bottom: 2px solid black;
+  }
+  
